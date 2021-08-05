@@ -219,7 +219,7 @@ h1 {
   padding: 12px;
   text-decoration: none;
   font-size: 18px;
-  /* line-height: 25px; */
+  line-height: 1.4.5;
   border-radius: 4px;
 }
 
@@ -250,19 +250,22 @@ a.logo:hover {
   float: right;
   font-size: auto;
   padding: 12px;
+  /* width: 600px; */
 }
 
 .header-right a {
-  width: auto;
+  width: 150px;
   height: auto;
   font-size: 28px;
+  font-family: serif;
+  vertical-align: bottom;
 
 }
 
 
 /*Company Logo and Name */
 .logopic {
-  width: 150px;
+  width: 100.172px;
   height: auto;
   display: inline-block;
 }
@@ -270,11 +273,8 @@ a.logo:hover {
 .companyName {
   color: #333;
   /* float:inline-end; */
-  text-align: center;
-  font-size: 45px;
+  padding: 12px;
   width: 600px;
-  margin: 0;
-  padding-top: 80px;
   position: relative;
   display: inline-block;
 }
@@ -305,58 +305,17 @@ a.logo:hover {
 /* } */
 
 /* Slideshow */
+* {box-sizing: border-box;}
+body {font-family: Verdana, sans-serif;}
+.mySlides {display: none;}
+img {vertical-align: middle;}
 
-* {box-sizing: border-box}
-/* body {font-family: Verdana, sans-serif; margin:0} */
-/* img {vertical-align: middle;} */
-.slideImg {
-  /* vertical-align: center; */
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 100%;
-  display: block;
-  object-fit: contain;
-}
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
-  max-height: 800px;
   position: relative;
   margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-  align-items: center;
-}
-
-/* Next & previous buttons */
-.prev, .next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: rgba(0,0,0,0.8);
+  padding: 12px;
 }
 
 /* Caption text */
@@ -368,9 +327,9 @@ a.logo:hover {
   bottom: 8px;
   width: 100%;
   text-align: center;
-  background-color: #717171;
-  border-radius: 50px;
-  opacity: 75%;
+  background-color: #333;
+  opacity: 2;
+  border-radius: 25px;
 }
 
 /* Number text (1/3 etc) */
@@ -380,14 +339,13 @@ a.logo:hover {
   padding: 8px 12px;
   position: absolute;
   top: 0;
-  background-color: #717171;
-  border-radius: 50px;
-  opacity: 75%;
+  background-color: #333;
+  opacity: 2;
+  border-radius: 50%;
 }
 
 /* The dots/bullets/indicators */
 .dot {
-  cursor: pointer;
   height: 15px;
   width: 15px;
   margin: 0 2px;
@@ -397,29 +355,40 @@ a.logo:hover {
   transition: background-color 0.6s ease;
 }
 
-.active, .dot:hover {
+.active {
   background-color: #717171;
 }
 
 /* Fading animation */
 .fade {
-  /* -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s; */
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
   animation-name: fade;
   animation-duration: 1.5s;
 }
-/* 
+
 @-webkit-keyframes fade {
-  from {opacity: .4}
+  from {opacity: .4} 
   to {opacity: 1}
-} */
+}
 
 @keyframes fade {
-  from {opacity: .4}
+  from {opacity: .4} 
   to {opacity: 1}
 }
 
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
+}
+/* {box-sizing: border-box}
+/* body {font-family: Verdana, sans-serif; margin:0} */
+/* img {vertical-align: middle;} */
+.slideImg {
+  height: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  display: block;
+  object-fit: contain;
 }
