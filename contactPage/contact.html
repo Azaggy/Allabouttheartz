@@ -3,6 +3,7 @@
     <head>
         <title>Contact Page</title>
         <link rel="stylesheet" href="contactStyles.css">
+        <script src="contactScript.js"></script>
     </head>
     <body>
         <div class="topnav" id="myTopnav">
@@ -11,9 +12,9 @@
                 <!-- <h1 class="companyName">All About The Artz</h1> -->
                 <img src="..\companyName.png" alt="Company Name" class="companyName">
                 <div class="header-right">
-                    <a href="..\index.html">Home</a>
+                    <a class="header-link" href="..\index.html">Home</a>
                     <div class="dropdown">
-                        <button onclick="openDropdown()" class="dropbtn"><a href="javascript:void(0)">Pictures  <i class="fa fa-caret-down"></i></a></button>
+                        <button onclick="openDropdown()" class="dropbtn"><a class="header-link" href="javascript:void(0)">Pictures  <i class="fa fa-caret-down"></i></a></button>
                         <div id="myDropdown" class="dropdown-content">
                             <a href="nature.html">Nature</a>
                             <a href="manMade.html">Man-Made</a>
@@ -23,8 +24,8 @@
                             <a href="Animals.html"> Animals</a>
                         </div>
                     </div>
-                    <a href="contactPage\contact.html">Contact</a>
-                    <a href="about.html">About</a>
+                    <a class="header-link" href="contactPage\contact.html">Contact</a>
+                    <a class="header-link" href="about.html">About</a>
                     <a href="javascript:void(0);" class="icon" onclick="myFunction2(this)">
                         <div class="container">
                             <div class="bar1"></div>
@@ -40,13 +41,13 @@
                 <img src="..\social\insta.png" alt="Instagram" class="socialIcons">
             </a>
             <a href="https://www.tiktok.com/@allabouttheartz?lang=en">
-                <img src="..\social\theTok.png" alt="TikTok" class="socialIcons">
+                <img src="..\social\theTok.png" alt="TikTok" class="socialIcons" id="theTok">
             </a>
             <a href="https://www.facebook.com/AllAboutTheArtz">
                 <img src="..\social\facebook.png" alt="Facebook" class="socialIcons"> 
             </a>
         </div> 
-        <buttom onclick="toggleDark()"></buttom>
+        <buttom onclick="toggleDark()">Darkmode</buttom>
     </body>
 </html>
 

@@ -246,6 +246,12 @@
       width: 50px;
       height: auto;
     }
+
+    .socialIcons {
+      width: 30px;
+      float: right;
+      padding: 2px;
+    }
   }
   
 /* SocialIcons */

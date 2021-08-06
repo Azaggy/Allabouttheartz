@@ -2,6 +2,11 @@
 function toggleDark() {
     let element = document.body;
     element.classList.toggle("darkmode");
+    let header = document.getElementsByClassName("header-link");
+    let topnav = document.getElementsByClassName("myTopnav");
+    topnav.toggle("darkmode");
+    header.classList.toggle("darkmode");
+    document.getElementById("theTok").src = "..\art\Paintings\self.jpg"
     
 }
 
