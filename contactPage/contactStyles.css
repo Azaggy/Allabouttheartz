@@ -142,6 +142,7 @@
   .container {
     display: inline-block;
     cursor: pointer;
+    
   }
   
   .bar1, .bar2, .bar3 {
@@ -246,12 +247,6 @@
       width: 50px;
       height: auto;
     }
-
-    .socialIcons {
-      width: 30px;
-      float: right;
-      padding: 2px;
-    }
   }
   
 /* SocialIcons */
@@ -260,6 +255,15 @@
     height: auto;
     float: right;
     padding: 5px;
+  }
+
+  @media screen and (max-width: 600px) {
+    .socialIcons {
+      width: 30px;
+      height: auto;
+      float: left;
+      padding: 2px;
+    }
   }
 
   /* // Testing DarkMode // */
