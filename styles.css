@@ -392,3 +392,11 @@ img {vertical-align: middle;}
   display: block;
   object-fit: contain;
 }
+
+/* SocialIcons */
+.socialIcons {
+  width: 55px;
+  height: auto;
+  float: right;
+  padding: 5px;
+}
