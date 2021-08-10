@@ -41,3 +41,9 @@ window.onclick = function(event) {
         }
     }
 }
+
+// DarkMode
+function toggleDark() {
+  let element = document.body;
+  element.classList.toggle("darkmode");
+}
