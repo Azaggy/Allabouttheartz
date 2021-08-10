@@ -1,8 +1,20 @@
 <!DOCTYPE html>
 <head>
     <Title>Hello</Title>
+    <link rel="stylesheet" href="stylescss.css">
+    <script src="javaS.js"></script>
 </head>
 <body>
-    <img class="tryIt" src="..\art\Sketches\abstractFlower.jpg" alt="Abstract Flower">
+    <label class="switch">
+        <input type="checkbox" onclick="changeImage()">
+        <span class="slider round"></span>
+    </label>
+    <div class="helloThere">
+        <img class="tryIt" id="tryIt" src="..\art\Sketches\abstractFlower.jpg" alt="Abstract Flower">
+    </div>
+    <div class="hiddenImage">
+        <img class="tryIt2"  id="tryIt2" src="..\art\Sketches\unkownFace.jpg" alt="Unkown Face">
+    </div>
+    
 </body>
 </html>

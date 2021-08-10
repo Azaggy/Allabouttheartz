@@ -1,3 +1,4 @@
-function changeImage(a) {
-    document.getElementById("img").src=a;
+function changeImage() {
+    document.getElementById("tryIt").style.display = "none";
+    document.getElementById("tryIt2").style.display = "inline-block";
 }
