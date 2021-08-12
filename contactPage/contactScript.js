@@ -4,14 +4,8 @@ function toggleDark() {
     element.classList.toggle("darkmode")
   changeImage();
   console.log("OKAY");
-   
-  // document.getElementById("social").style.display.toggle("fast");
 }
 
-// let set1 = document.getElementById("social")
-// let set2 = document.getElementById("socialDark")
-// set1.style.display = "block";
-// set2.style.display = "none";
 function changeImage() {
   let set1 = document.getElementById("social");
     let set2 = document.getElementById("socialDark");
@@ -26,6 +20,7 @@ function changeImage() {
       console.log("Test 2");
     }
 }
+
 
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
