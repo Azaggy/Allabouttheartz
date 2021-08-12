@@ -1,11 +1,11 @@
-.tryIt {
+#tryIt {
     width: 300px;
     height: 400px;
     object-fit: cover;
     display: inline-block;
 }
 
-.tryIt2 {
+#tryIt2 {
     width: 300px;
     height: 400px;
     object-fit: cover;
