@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Contact Page</title>
         <link rel="stylesheet" href="contactStyles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="contactScript.js"></script>
     </head>
     <body>
         <div>
             <div class="topnav" id="myTopnav">
-                <div class="header">
+                <div class="header" >
                     <a href="..\index.html" class="logo"><img src="..\logo2.png" alt="Company Logo" class="logopic"></a>
                     <!-- <h1 class="companyName">All About The Artz</h1> -->
                     <img src="..\companyName.png" alt="Company Name" class="companyName">
-                    <div class="header-right">
+                    <div class="header-right" id="header-right" style="color: #400000;" >
                         <a class="header-link" href="..\index.html">Home</a>
                         <div class="dropdown">
                             <button onclick="openDropdown()" class="dropbtn"><a class="header-link" href="javascript:void(0)">Pictures  <i class="fa fa-caret-down"></i></a></button>
@@ -37,17 +39,29 @@
                     </div>    
                 </div>    
              </div>
-            <div class="socialMediaLinks">
+            <div id="social" style="display: block;"> 
                 <a href="https://www.instagram.com/allabouttheartz/">
                     <img src="..\social\insta.png" alt="Instagram" class="socialIcons">
                 </a>
-                <a href="https://www.tiktok.com/@allabouttheartz?lang=en">
+                <a href="https://www.tiktok.com/@allabouttheartz?lang=en" id="theTok">
                     <img src="..\social\theTok.png" alt="TikTok" class="socialIcons" id="theTok">
                 </a>
                 <a href="https://www.facebook.com/AllAboutTheArtz">
                     <img src="..\social\facebook.png" alt="Facebook" class="socialIcons"> 
                 </a>
             </div> 
+            <div id="socialDark" style="display: none;">
+              <a href="https://www.instagram.com/allabouttheartz/">
+                <img src="..\social\insta2.png" alt="Instagram" class="socialIcons">
+              </a>
+              <a href="https://www.tiktok.com/@allabouttheartz?lang=en">
+                <img src="..\social\theTok2.png" alt="TikTok" class="socialIcons" id="theTok2">
+              </a>
+              <a href="https://www.facebook.com/AllAboutTheArtz">
+                  <img src="..\social\theBook2.png" alt="Facebook" class="socialIcons"> 
+              </a>
+
+            </div>
         </div>
         
         
@@ -66,7 +80,7 @@
                 <h1 class="titleHead">Contact</h1>
             </div>
         </div>
-        <div class="row">
+        <div class="row2">
             <img class="imgCard" src="..\art\People\Reminise.jpg" alt="Person sitting on a bench facing away from camera">
     
             <div class="container">

@@ -267,6 +267,24 @@
     }
   }
 
+  /* #social {
+    display: block;
+    
+  }
+
+  #socialDark {
+    display: none;
+    
+  } */
+
+/* .social {
+  display: block;
+}
+
+.socialDark {
+  display: none;
+} */
+
   /* // Testing DarkMode // */
 body {
     color: #400000;
@@ -370,6 +388,14 @@ input[type=submit] {
   object-fit: cover;
   padding: 12px;
   border-radius: 25px;
+}
+
+.row2 {
+  background-color: #f1f1f1;
+  width: 1300px;
+  border-radius: 25px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* slider switch */

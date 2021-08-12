@@ -1,8 +1,26 @@
 // DarkMode
 function toggleDark() {
     let element = document.body;
-    element.classList.toggle("darkmode");
+    element.classList.toggle("darkmode")
+  changeImage();
+  console.log("OKAY");
 }
+
+function changeImage() {
+  let set1 = document.getElementById("social");
+    let set2 = document.getElementById("socialDark");
+    
+    if (set1.style.display === "block" && set2.style.display === "none") {
+      set1.style.display = "none";
+      set2.style.display = "block";
+      console.log("Test 1");
+    } else if (set1.style.display === "none" && set2.style.display === "block") {
+      set1.style.display = "block";
+      set2.style.display = "none";
+      console.log("Test 2");
+    }
+}
+
 
 /* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
 function myFunction() {
