@@ -64,3 +64,4 @@ function changeImage() {
     console.log("Test 2");
   }
 }
+
