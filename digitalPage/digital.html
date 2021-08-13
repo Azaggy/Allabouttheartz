@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title>Digital Art</title>
+          <link rel="icon" href="..\logowhtBackgrd.jpg" size="16x16" type="image/png">
+          <link rel="stylesheet" href="digitalcss.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <script src="digitalJS.js"></script>
+      </head>
+      <body>
+          <div>
+              <div class="topnav" id="myTopnav">
+                  <div class="header" >
+                      <a href="..\index.html" class="logo"><img src="..\logo2.png" alt="Company Logo" class="logopic"></a>
+                      <!-- <h1 class="companyName">All About The Artz</h1> -->
+                      <img src="..\companyName.png" alt="Company Name" class="companyName">
+                      <div class="header-right" id="header-right" style="color: #400000;" >
+                          <a class="header-link" href="..\index.html">Home</a>
+                          <div class="dropdown">
+                            <button onclick="openDropdown()" class="dropbtn"><a href="javascript:void(0)">Pictures  <i class="fa fa-caret-down"></i></a></button>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="digitalPage\digital.html">Digital Art</a>
+                                <a href="drawing.html">Drawings</a>
+                                <a href="javascript:void(0)"> Old Work <i class="fa fa-caret-down"></i></a>
+                                <!-- <p style="text-align: center;">&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;</p> -->
+                                <a href="nature.html">Nature</a>
+                                <a href="manMade.html">Man-Made</a>
+                                <a href="printMaking.html">Printmaking</a>
+                                <a href="portraits.hmtl">Portraits</a>
+                                <a href="Animals.html"> Animals</a>
+                            </div>
+                          </div>
+                          <a class="header-link" href="..\contactPage\contact.html">Contact</a>
+                          <a class="header-link" href="about.html">About</a>
+                          <a href="javascript:void(0);" class="icon" onclick="myFunction2(this)">
+                              <div class="container">
+                                  <div class="bar1"></div>
+                                  <div class="bar2"></div>
+                                  <div class="bar3"></div>
+                              </div>
+                          </a>
+                      </div>    
+                  </div>    
+               </div>
+              <div id="social" style="display: block;"> 
+                  <a href="https://www.instagram.com/allabouttheartz/">
+                      <img src="..\social\insta.png" alt="Instagram" class="socialIcons">
+                  </a>
+                  <a href="https://www.tiktok.com/@allabouttheartz?lang=en" id="theTok">
+                      <img src="..\social\theTok.png" alt="TikTok" class="socialIcons" id="theTok">
+                  </a>
+                  <a href="https://www.facebook.com/AllAboutTheArtz">
+                      <img src="..\social\facebook.png" alt="Facebook" class="socialIcons"> 
+                  </a>
+              </div> 
+              <div id="socialDark" style="display: none;">
+                <a href="https://www.instagram.com/allabouttheartz/">
+                  <img src="..\social\insta2.png" alt="Instagram" class="socialIcons">
+                </a>
+                <a href="https://www.tiktok.com/@allabouttheartz?lang=en">
+                  <img src="..\social\theTok2.png" alt="TikTok" class="socialIcons" id="theTok2">
+                </a>
+                <a href="https://www.facebook.com/AllAboutTheArtz">
+                    <img src="..\social\theBook2.png" alt="Facebook" class="socialIcons"> 
+                </a>
+  
+              </div>
+          </div>
+          
+          
+          <!-- <button onclick="toggleDark()"><p>Dark Mode</p></button> -->
+          <div class="hoverableSwitch">
+              <label class="switch">
+                  <input type="checkbox" onclick="toggleDark()">
+                  <span class="slider round"></span>
+              </label>
+          </div>
+          <div class="hiddenText">Dark Mode</div>
+
+          <!-- Certain Page Info -->
+          <button onclick="goToTop()" id="topBtn" title="Go To Top" style="display: none;">Top</button>
+          <div class="column2">
+            <img class="imageOne" src="..\art\Digital\createArt.jpg">
+        </div>
+          <div class="row">
+            <div class="column">
+                    <div class="container">
+                        <a href="digitalLips\digitalLips.html">
+                        <div class="slideshow-container">
+                            <div class="slides fade" style="display: block;">
+                                <img src="..\art\Digital\MultiLip\lipBite.jpg">  
+                            </div>
+                            <div class="slides fade">
+                                <img src="..\art\Digital\MultiLip\lipBleed.jpg">  
+                            </div>
+                            <div class="slides fade">
+                                <img src="..\art\Digital\MultiLip\lipBlood.jpg">  
+                            </div>
+                            <div class="slides fade">
+                                <img src="..\art\Digital\MultiLip\lipCut.jpg">  
+                            </div>
+                            <div class="slides fade">
+                                <img src="..\art\Digital\MultiLip\lipFlower.jpg">  
+                            </div>
+                            <div class="slides fade">
+                                <img src="..\art\Digital\MultiLip\lipFrown.jpg">  
+                            </div>
+                            <div class="slides fade">
+                                <img src="..\art\Digital\MultiLip\lipFYou.jpg">  
+                            </div>
+                            <div class="slides fade">
+                                <img src="..\art\Digital\MultiLip\lipHand.jpg">  
+                            </div>
+                            <div class="slides fade">
+                                <img src="..\art\Digital\MultiLip\lipHelp.jpg">  
+                            </div>
+                            <div class="slides fade">
+                                <img src="..\art\Digital\MultiLip\lipLick.jpg">  
+                            </div>
+                            <div class="slides fade">
+                                <img src="..\art\Digital\MultiLip\lipScar.jpg">  
+                            </div>
+                            <div class="slides fade">
+                                <img src="..\art\Digital\MultiLip\lipSewn.jpg">  
+                            </div>
+                            <div class="slides fade">
+                                <img src="..\art\Digital\MultiLip\lipSharkTeeth.jpg">  
+                            </div>
+                            <div class="slides fade">
+                                <img src="..\art\Digital\MultiLip\lipShush.jpg">  
+                            </div>
+                            <div class="slides fade">
+                                <img src="..\art\Digital\MultiLip\lipSide.jpg">  
+                            </div>
+                            <div class="slides fade">
+                                <img src="..\art\Digital\MultiLip\lipSmirk.jpg">  
+                            </div>
+                            <div class="slides fade">
+                                <img src="..\art\Digital\MultiLip\lipSmoke.jpg">  
+                            </div>
+                            <div class="slides fade">
+                                <img src="..\art\Digital\MultiLip\lipSnake.jpg">  
+                            </div>
+                            <div class="slides fade">
+                                <img src="..\art\Digital\MultiLip\lipSneer.jpg">  
+                            </div>
+                            <div class="slides fade">
+                                <img src="..\art\Digital\MultiLip\lipSpill.jpg">  
+                            </div>
+                            <div class="slides fade">
+                                <img src="..\art\Digital\MultiLip\lipSuck.jpg">  
+                            </div>
+                            <div class="slides fade">
+                                <img src="..\art\Digital\MultiLip\lipSucker.jpg">  
+                            </div>
+                            <div class="slides fade">
+                                <img src="..\art\Digital\MultiLip\lipTaunt.jpg">  
+                            </div>
+                            <div class="slides fade">
+                                <img src="..\art\Digital\MultiLip\lipTongue.jpg">  
+                            </div>
+                            <div class="slides fade">
+                                <img src="..\art\Digital\MultiLip\lipTouich.jpg">  
+                            </div>
+                            <div class="slides fade">
+                                <img src="..\art\Digital\MultiLip\lipToungeOut.jpg">  
+                            </div>
+                            <div class="slides fade">
+                                <img src="..\art\Digital\MultiLip\lipVampTeeth.jpg">  
+                            </div>
+                        </div>
+                        <div class="overlay">Lips: A Collection</div>
+                        </a>
+                    </div>
+                    <div class="container">
+                        <img src="..\art\Digital\birthDay.png">
+                        <div class="overlay">Celebration</div>
+                    </div>
+                    <div class="container">
+                        <img src="..\art\Digital\childhood.png">
+                        <div class="overlay">Childhood Fun</div>
+                    </div>
+                    <div class="container">
+                        <img src="..\art\Digital\cloudedFace.jpg">
+                        <div class="overlay">Clouded Face</div>
+                    </div>
+                    <div class="container">
+                        <img src="..\art\Digital\tentacleShake.jpg">
+                        <div class="overlay">Tentecle Shake</div>
+                    </div>
+                    <div class="container">
+                            
+                        <img src="..\art\Digital\crownedSkullColored.jpg">
+                        <div class="overlay">Crowned Skull Colored</div>
+                    </div>
+                    <div class="container">
+                        <img src="..\art\Digital\crownedSkull.jpg">
+                        <div class="overlay">Crowned Skull</div>
+                    </div>
+                    <div class="container">
+                        <img src="..\art\Digital\dontCare.jpg">
+                        <div class="overlay">Uncaring</div>
+                    </div>
+                    <div class="container">
+                        <img src="..\art\Digital\eyeMouth.jpg">
+                        <div class="overlay">Eye</div>
+                    </div>
+            </div>
+            <div class="column">
+                <div class="container">
+                    <img src="..\art\Digital\facelessgirl.png">
+                    <div class="overlay">Strike a Pose</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Digital\Fire.png">
+                    <div class="overlay">Match</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Digital\trappedMermaid.jpg">
+                    <div class="overlay">Trapped</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Digital\flameWalker.png">
+                    <div class="overlay">Flame Walker</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Digital\hanging.jpg">
+                    <div class="overlay">Hanging Around</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Digital\havingFun.png">
+                    <div class="overlay">Joy</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Digital\hiddenSelf.jpg">
+                    <div class="overlay">Hidden Self</div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="container">
+                    <img src="..\art\Digital\turnedAway.png">  
+                    <div class="overlay">Ghostly View</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Digital\hotToCold.png">
+                    <div class="overlay">Turning Cold</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Digital\selfie.jpg">
+                    <div class="overlay">Self</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Digital\masks.jpg">
+                    <div class="overlay">Mask</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Digital\nightSky.png">
+                    <div class="overlay">Nighttime</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Digital\prisoners.jpg">
+                    <div class="overlay">Death Takes Prisoners</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Digital\reverseLife.jpg">
+                    <div class="overlay">Reversed</div>
+                </div>
+                
+            </div>
+            <div class="column">
+                <div class="container">
+                    <img src="..\art\Digital\letMeGo.jpg">
+                    <div class="overlay">Let Me Go</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Digital\skullMask.jpg">
+                    <div class="overlay">Masked</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Digital\soulTaker.jpg">
+                    <div class="overlay">Soul Taker</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Digital\tearThrough.jpg">
+                    <div class="overlay">Tear It</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Digital\theFinger.jpg">
+                    <div class="overlay">The Finger</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Digital\topModel.jpg">
+                    <div class="overlay">No Features</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Digital\rosePetal.jpg">
+                    <div class="overlay">Rose</div>
+                </div>
+            </div>
+          </div>
+
+          <script>
+            var slideIndex = 0;
+            showSlides();
+                    
+            function showSlides() {
+                console.log(slideIndex);
+                var i;
+                var slides = document.getElementsByClassName("slides");
+                // var dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                console.log(slideIndex);
+                if (slideIndex > slides.length) {slideIndex = 1}    
+                // for (i = 0; i < dots.length; i++) {
+                //     dots[i].className = dots[i].className.replace(" active", "");
+                // }
+                slides[slideIndex-1].style.display = "block";  
+                // dots[slideIndex-1].className += " active";
+                setTimeout(showSlides, 3000); // Change image every 2 seconds
+            }
+          </script>
+  </body>
+</html>
