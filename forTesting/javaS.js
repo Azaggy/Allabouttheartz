@@ -15,3 +15,18 @@ function changeImage() {
     // document.getElementById("tryIt").style.toggledisplay("none");
     // document.getElementById("tryIt2").style.toggle.display = "inline-block";
 }
+
+// let str = document.getElementById("info")
+
+function countVow(str) {
+    let counter = 0;
+    // str = document.getElementById("info");
+    for (let i = 0; i < str.length; i++){
+        if (str[i] == 'a' || 'e' || 'i' || 'u' || 'o') {
+            counter++;
+            console.log(counter);
+        } return counter;
+    } 
+}
+
+// countVow(document.getElementById("info"))
