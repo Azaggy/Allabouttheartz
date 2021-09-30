@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>All About the Artz</title>
+        <link rel="icon" href="logowhtBackgrd.jpg" size="16x16" type="image/png">
+        <link rel="stylesheet" href="about.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="about.js"></script>
+        <style > 
+            @keyframes example {
+                0%   {color: red; left: 0px;}
+                25%  {color: darkred; left: 400px;}
+                50%  {color: darkred; left: 800px;}
+                100% {color: red; left: 1200px;}
+            }
+            @keyframes mymove {
+                0% {left: 0px;}
+                25% {left: 200px;}
+                50% {left: 400px;}
+                100% {left: 600px;}
+            }
+            </style>
+
+    </head>
+    <body>
+        <div class="topnav" id="myTopnav">
+            <div class="header">
+                <a href="..\index.html" class="logo" id="logo" style="background-color: #f1f1f1;"><img src="..\logo2.png" alt="Company Logo" class="logopic"></a>
+                <!-- <h1 class="companyName">All About The Artz</h1> -->
+                <img src="..\companyName.png" alt="Company Name" class="companyName">
+                <div class="header-right">
+                    <a href="..\index.html">Home</a>
+                    <div class="dropdown">
+                        <button onclick="openDropdown()" class="dropbtn"><a href="javascript:void(0)">Pictures  <i class="fa fa-caret-down"></i></a></button>
+                        <div id="myDropdown" class="dropdown-content">
+                            <a href="..\digitalPage\digital.html">Digital Art</a>
+                            <a href="drawing.html">Drawings</a>
+                            <!-- <a href="javascript:void(0)"> Old Work <i class="fa fa-caret-down"></i></a> -->
+                            <!-- <p style="text-align: center;">&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;</p> -->
+                            <!-- <a href="nature.html">Nature</a>
+                            <a href="manMade.html">Man-Made</a>
+                            <a href="printMaking.html">Printmaking</a>
+                            <a href="portraits.hmtl">Portraits</a>
+                            <a href="Animals.html"> Animals</a> -->
+                        </div>
+                    </div>
+                    <a href="..\contactPage\contact.html">Contact</a>
+                    <a href="aboutPage\about.html">About</a>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction2(this)">
+                        <div class="container">
+                            <div class="bar1"></div>
+                            <div class="bar2"></div>
+                            <div class="bar3"></div>
+                        </div>
+                    </a>
+                </div>    
+            </div>    
+        </div> 
+        <div id="social" style="display: block;"> 
+            <a href="https://www.instagram.com/allabouttheartz/">
+                <img src="..\social\insta.png" alt="Instagram" class="socialIcons">
+            </a>
+            <a href="https://www.tiktok.com/@allabouttheartz?lang=en" id="theTok">
+                <img src="..\social\theTok.png" alt="TikTok" class="socialIcons" id="theTok">
+            </a>
+            <a href="https://www.facebook.com/AllAboutTheArtz">
+                <img src="..\social\facebook.png" alt="Facebook" class="socialIcons"> 
+            </a>
+        </div> 
+        <div id="socialDark" style="display: none;">
+          <a href="https://www.instagram.com/allabouttheartz/">
+            <img src="..\social\insta2.png" alt="Instagram" class="socialIcons">
+          </a>
+          <a href="https://www.tiktok.com/@allabouttheartz?lang=en">
+            <img src="..\social\theTok2.png" alt="TikTok" class="socialIcons" id="theTok2">
+          </a>
+          <a href="https://www.facebook.com/AllAboutTheArtz">
+              <img src="..\social\theBook2.png" alt="Facebook" class="socialIcons"> 
+          </a>
+
+        </div>
+        
+        <div class="hoverableSwitch">
+            <label class="switch">
+                <input type="checkbox" onclick="toggleDark()">
+                <span class="slider round"></span>
+            </label>
+        </div>
+        <div class="hiddenText">Dark Mode</div>
+
+        <h1 class="titleHead">About the Artist</h1>
+        <div class="container">
+            <img src="..\art\Paintings\self.jpg" alt="Selfie" class="selfImage">
+            <div class="infoAbout">
+                <p>All About The Artz (A.K.A. Anamaria Zaggy) has been doing artwork since she was in middle school. She is based in the Saint Louis Area in Missouri. She does 
+                not specialize in one specific medium, but uses a good majority of them in her art. She is always looking to improve her work and broaden her spectrum of knowledge.
+                </p>
+            </div>
+            <div class="infoAbout2">
+                <p>At the age of 16, All About The Artz found herself helping on a mural called "Reflective Mythologies: Portraits (re-mixed)". This mural explored mythmaking through art. It was 
+                lead by artist, Christopher Burch. </p><p> All About The Artz chose to touch on her Mayan roots. She picked three photos of herself to protray her personality and who she is as a person.
+                She loves art because to her she can express herseld and it helps her to not care how others view her.
+                </p>
+            </div>
+            <a href="https://news.stlpublicradio.org/arts/2013-07-08/public-art-wall-displays-students-private-aspirations" style="text-decoration: none;">
+            <img src="..\art\Mural.jpg" alt="mural image" class="articleImage">
+            <p class="credit">Credit Chelsea Embree | Beacon Intern | 2013</p>
+            <p class="credit">“It means a lot because my heritage is on a wall. I don’t know for how long, but it’s on a wall,” Zaggy said. “The people who see it might not know it, but I know it, the people who I worked with know it, and that’s all that really matters.”</p>
+        </a>
+        </div>
+        <!-- <img src="..\art\Paintings\self.jpg" alt="Selfie" class="selfImage">
+        <div class="infoAbout">
+            <p>All About The Artz (A.K.A. Anamaria Zaggy) has been doing artwork since she was in middle school. She is based in the Saint Louis Area in Missouri. She does 
+                not specialize in one specific medium, but uses a good majority of them in her art. She is always looking to improve her work and broaden her spectrum of knowledge.
+            </p>
+        </div>
+        <div class="infoAbout2">
+            <p>At the age of 16, All About The Artz found herself helping on a mural called "Reflective Mythologies: Portraits (re-mixed)". This mural explored mythmaking through art. It was 
+                lead by artist, Christopher Burch. </p><p> All About The Artz chose to touch on her Mayan roots. She picked three photos of herself to protray her personality and who she is as a person.
+                She loves art because to her she can express herseld and it helps her to not care how others view her.
+            </p>
+        </div>
+        <a href="https://news.stlpublicradio.org/arts/2013-07-08/public-art-wall-displays-students-private-aspirations" style="text-decoration: none;">
+            <img src="..\art\Mural.jpg" alt="mural image" class="articleImage">
+            <p class="credit">Credit Chelsea Embree | Beacon Intern | 2013</p>
+            <p class="credit">“It means a lot because my heritage is on a wall. I don’t know for how long, but it’s on a wall,” Zaggy said. “The people who see it might not know it, but I know it, the people who I worked with know it, and that’s all that really matters.”</p>
+        </a> -->
+    </body>
+</html>
