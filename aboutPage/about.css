@@ -349,8 +349,9 @@
 }
 
 .selfImage {
-    width: 600px;
+    width: 500px;
     margin: auto;
+    padding: 12px;
     border-radius: 25px;
 }
 
@@ -358,7 +359,7 @@
 
 .titleHead {
     font-family: serif;
-    font-size: 62px;
+    font-size: 68px;
     text-align: center;
   }
 
@@ -389,4 +390,10 @@
       font-family: serif;
       font-size: smaller;
       text-align: center;
+  }
+
+  .container {
+    margin: auto;
+    padding: 12px;
+
   }
