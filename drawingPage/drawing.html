@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+          <title>Drawings</title>
+          <link rel="icon" href="..\logowhtBackgrd.jpg" size="16x16" type="image/png">
+          <link rel="stylesheet" href="drawing.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+          <script src="drawing.js"></script>
+      </head>
+      <body>
+          <div>
+              <div class="topnav" id="myTopnav">
+                  <div class="header" >
+                      <a href="..\index.html" class="logo"><img src="..\logo2.png" alt="Company Logo" class="logopic"></a>
+                      <!-- <h1 class="companyName">All About The Artz</h1> -->
+                      <img src="..\companyName.png" alt="Company Name" class="companyName">
+                      <div class="header-right" id="header-right" style="color: #400000;" >
+                          <a class="header-link" href="..\index.html">Home</a>
+                          <div class="dropdown">
+                            <button onclick="openDropdown()" class="dropbtn"><a href="javascript:void(0)">Pictures  <i class="fa fa-caret-down"></i></a></button>
+                            <div id="myDropdown" class="dropdown-content">
+                                <a href="digitalPage\digital.html">Digital Art</a>
+                                <a href="drawing.html">Drawings</a>
+                                <!-- <a href="javascript:void(0)"> Old Work <i class="fa fa-caret-down"></i></a> -->
+                                <!-- <p style="text-align: center;">&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;&#x2500;</p> -->
+                                <!-- <a href="nature.html">Nature</a>
+                                <a href="manMade.html">Man-Made</a>
+                                <a href="printMaking.html">Printmaking</a>
+                                <a href="portraits.hmtl">Portraits</a>
+                                <a href="Animals.html"> Animals</a> -->
+                            </div>
+                          </div>
+                          <a class="header-link" href="..\contactPage\contact.html">Contact</a>
+                          <a class="header-link" href="..\aboutPage\about.html">About</a>
+                          <a href="javascript:void(0);" class="icon" onclick="myFunction2(this)">
+                              <div class="container">
+                                  <div class="bar1"></div>
+                                  <div class="bar2"></div>
+                                  <div class="bar3"></div>
+                              </div>
+                          </a>
+                      </div>    
+                  </div>    
+               </div>
+              <div id="social" style="display: block;"> 
+                  <a href="https://www.instagram.com/allabouttheartz/">
+                      <img src="..\social\insta.png" alt="Instagram" class="socialIcons">
+                  </a>
+                  <a href="https://www.tiktok.com/@allabouttheartz?lang=en" id="theTok">
+                      <img src="..\social\theTok.png" alt="TikTok" class="socialIcons" id="theTok">
+                  </a>
+                  <a href="https://www.facebook.com/AllAboutTheArtz">
+                      <img src="..\social\facebook.png" alt="Facebook" class="socialIcons"> 
+                  </a>
+              </div> 
+              <div id="socialDark" style="display: none;">
+                <a href="https://www.instagram.com/allabouttheartz/">
+                  <img src="..\social\insta2.png" alt="Instagram" class="socialIcons">
+                </a>
+                <a href="https://www.tiktok.com/@allabouttheartz?lang=en">
+                  <img src="..\social\theTok2.png" alt="TikTok" class="socialIcons" id="theTok2">
+                </a>
+                <a href="https://www.facebook.com/AllAboutTheArtz">
+                    <img src="..\social\theBook2.png" alt="Facebook" class="socialIcons"> 
+                </a>
+  
+              </div>
+          </div>
+          
+          
+          <!-- <button onclick="toggleDark()"><p>Dark Mode</p></button> -->
+          <div class="hoverableSwitch">
+              <label class="switch">
+                  <input type="checkbox" onclick="toggleDark()">
+                  <span class="slider round"></span>
+              </label>
+          </div>
+          <div class="hiddenText">Dark Mode</div>
+
+          <!-- Certain Page Info -->
+          <button onclick="goToTop()" id="topBtn" title="Go To Top" style="display: none;">Top</button>
+        <div class="column2">
+            <img class="imageOne" src="..\art\Digital\createArt.jpg">
+        </div>
+        <div class="row">
+            <div class="column">
+                <div class="container">
+                    <img src="..\art\Sketches\arise_0001.jpg">
+                    <div class="overlay">Arise</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\dogAttack.jpg">
+                    <div class="overlay">Dog Attack</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\doodle_0001.jpg">
+                    <div class="overlay">Line Work</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\hair_0001.jpg">
+                    <div class="overlay">Hair</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\handSketch_0001.jpg">
+                    <div class="overlay">Hand</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\maskIt_0001.jpg">
+                    <div class="overlay">Silly Mask</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\maskOfProtection_0001.jpg">
+                    <div class="overlay">Mask of Protection</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\shush_0001.jpg">
+                    <div class="overlay">Shush</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\skull_0001.jpg">
+                    <div class="overlay">Skull original</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\topFace.jpg">
+                    <div class="overlay">Top Face on Index Card</div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="container">
+                    <img src="..\art\Sketches\artIsLife_0001.jpg">
+                    <div class="overlay">Art is Life</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\deconstructFace_0001.jpg">
+                    <div class="overlay">Deconstruct Face</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\emptyBed_0001.jpg">
+                    <div class="overlay">Empty Bed</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\fYou_0001.jpg">
+                    <div class="overlay">The Bird</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\hurtful.jpg">
+                    <div class="overlay">Hurting Words</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\lioness.jpg">
+                    <div class="overlay">Lioness</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\mixNMatch_0001.jpg">
+                    <div class="overlay">Mix and Match Face</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\scrollQuote_0001.jpg">
+                    <div class="overlay">Scroll Quote</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\smileBig_0001.jpg">
+                    <div class="overlay">Smile Wide</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\tobeFly_0001.jpg">
+                    <div class="overlay">Fly</div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="container">
+                    <img src="..\art\Sketches\cardFall.jpg">  
+                    <div class="overlay">Card Fall</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\deathTakesPrisoners_0001.jpg">
+                    <div class="overlay">Death Takes Prisoners version 1</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\eyeFlower_0001.jpg">
+                    <div class="overlay">Eye Flower</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\flowerGarden_0001.jpg">
+                    <div class="overlay">Flower Garden</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\inktober2020_0001.jpg">
+                    <div class="overlay">Inktober 2020</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\inktober2020_0002.jpg">
+                    <div class="overlay">Inktober 2020</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\inktober2020_0003.jpg">
+                    <div class="overlay">Inktober 2020</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\reachingOut.jpg">
+                    <div class="overlay">Reaching Out</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\speakLips_0001.jpg">
+                    <div class="overlay">No Voice</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\Tears.jpg">
+                    <div class="overlay">Tears</div>
+                </div>
+            </div>
+            <div class="column">
+                <div class="container">
+                    <img src="..\art\Sketches\cheater_0001.jpg">
+                    <div class="overlay">Caught</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\cutFlower.jpg">
+                    <div class="overlay">Flower cut from Paper</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\falling_0001.jpg">
+                    <div class="overlay">Falling</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\flare_0001.jpg">
+                    <div class="overlay">Flare Up</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\jokerCard_0001.jpg">
+                    <div class="overlay">The Joker</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\lion.jpg">
+                    <div class="overlay">Lion</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\noLove_0001.jpg">
+                    <div class="overlay">No Love</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\notEnough_0001.jpg">
+                    <div class="overlay">Not Enough</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\swimAlong.jpg">
+                    <div class="overlay">Swim Along</div>
+                </div>
+                <div class="container">
+                    <img src="..\art\Sketches\takeIt_0001.jpg">
+                    <div class="overlay">Pass Along</div>
+                </div>
+            </div>
+        </div>
+
+          <script>
+            var slideIndex = 0;
+            showSlides();
+                    
+            function showSlides() {
+                console.log(slideIndex);
+                var i;
+                var slides = document.getElementsByClassName("slides");
+                // var dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";  
+                }
+                slideIndex++;
+                console.log(slideIndex);
+                if (slideIndex > slides.length) {slideIndex = 1}    
+                // for (i = 0; i < dots.length; i++) {
+                //     dots[i].className = dots[i].className.replace(" active", "");
+                // }
+                slides[slideIndex-1].style.display = "block";  
+                // dots[slideIndex-1].className += " active";
+                setTimeout(showSlides, 3000); // Change image every 2 seconds
+            }
+          </script>
+  </body>
+</html>
